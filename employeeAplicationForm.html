@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Employee Aplication Form
+        <title >
+            Employee Application Form
         </title>
+        <style>
+            td{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            
+                        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="file"],
+        input[type="date"],
+        input [type="radio"],
+        input[type="checkbox"] 
+         {
+            background-color: bisque;
+            border-radius: 10px;
+            color:red;
+            font-size:medium;
+            text-transform: capitalize;
+        }     
+        
+        input[ type="radio"]
+        {
+            background-color: bisque;
+            border-radius: 10px;
+        }
+        .demo1:hover{
+            background-color:bisque;
+        }       
+        .demo1{
+            background-color: aqua;
+            height: 30px;
+            width: 150px;
+            border-radius: 20px;
+            
+        }   
+        .demo2{
+            text-shadow: 20px 10px 7px black;
+        }
+        .demo2:hover{
+            color:red
+        }
+        .demo3{
+            background-color: bisque;
+        }
+        </style>
     </head>
     <body>
-        <H1>Employee Aplication Form</H1>
+        <H1 class="demo2">Employee Application Form</H1>
         <form>
             <table>
                 <tr>
@@ -97,13 +144,13 @@
                 <tr>
                     <td>Present Address</td>
                     <td>
-                        <textarea rows="10" cols="40" placeholder="present address"></textarea>
+                        <textarea class="demo3" rows="10" cols="40" placeholder="present address"></textarea>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                <input type= "submit" value="Submit">
-                        <input type ="reset" value="Clear">
+                <input class="demo1" type= "submit" value="Submit">
+                        <input class="demo1" type ="reset" value="Clear">
                         </td>
                 </tr>
             </table>
